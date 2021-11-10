@@ -1,0 +1,12 @@
+Source: ros-noetic-rosmsg-cpp
+Section: misc
+Priority: optional
+Maintainer: Martin Pecka <peckama2@fel.cvut.cz>
+Build-Depends: debhelper (>= 9.0.0), python3-dev, ros-noetic-catkin, ros-noetic-cpp-common, ros-noetic-geometry-msgs, ros-noetic-ros-environment, ros-noetic-roslib, ros-noetic-rosunit
+Homepage: https://github.com/ctu-vras/rosmsg_cpp
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rosmsg-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-dev, ros-noetic-cpp-common, ros-noetic-message-runtime, ros-noetic-roslib
+Description: C++ library for getting full message definition or MD5 sum given message type as string
