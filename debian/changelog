@@ -1,0 +1,15 @@
+ros-melodic-rosmsg-cpp (1.0.2-1bionic) bionic; urgency=high
+
+  * Fix build on ROS buildfarm.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Tue, 09 Nov 2021 23:00:00 -0000
+
+ros-melodic-rosmsg-cpp (1.0.0-1bionic) bionic; urgency=high
+
+  * Initial version.
+  * Contributors: Martin Pecka
+
+ -- Martin Pecka <peckama2@fel.cvut.cz>  Thu, 04 Nov 2021 23:00:00 -0000
+
+
